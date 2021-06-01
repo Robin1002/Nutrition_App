@@ -30,7 +30,7 @@ public class WeightLogController {
 	}
 
 	@RequestMapping(value= "/user/addWeightLog", method= RequestMethod.POST)
-	public WeightLog addEmployee(@RequestBody WeightLog newWeightLog) {       
+	public WeightLog addWeightLog(@RequestBody WeightLog newWeightLog) {       
 		return weightLogService.addWeightLog(newWeightLog);
 	}
 
